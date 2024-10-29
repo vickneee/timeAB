@@ -11,6 +11,6 @@ TimeAB is a school project I created at Metropolia University of Applied Science
 
 ## Deployment
 
-[Netlify Link](https://timeab.netlify.app/))
+[Netlify Link](https://timeab.netlify.app/)
 
 [GitHub Pages Link](https://vickneee.github.io/timeAB/)
