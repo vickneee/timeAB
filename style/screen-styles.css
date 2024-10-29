@@ -1,0 +1,6 @@
+.screen-image {
+    width: 80%;
+    height: auto;
+    object-fit: cover; /* Image fills the container */
+    border-radius: 0.2rem;
+}
