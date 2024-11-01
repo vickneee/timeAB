@@ -31,6 +31,7 @@
 
 .luxury-line {
     border-bottom: 2px solid var(--gold);
+    margin: 0;
 }
 
 /***** General *****/
@@ -58,8 +59,8 @@ body {
 /***** Typography *****/
 
 h1 {
-    margin-bottom: 2rem;
-    padding: 0 4rem;
+    margin-top: 10rem;
+    padding: 2rem 4rem 0 4rem;
     font-family: "Montserrat", "Verdana", "Helvetica", "Arial", sans-serif; /* Default font and backup fonts */
     font-size: 4rem;
 }
@@ -244,6 +245,13 @@ header {
     justify-content: center;
 }
 
+.home-container p {
+    margin-bottom: 3rem;
+    padding: 1rem 6em 0 6rem;
+    text-align: center;
+    line-height: 1;
+}
+
 .home-img-container {
     position: relative;
     width: 95%; /* 95% of the container width */
@@ -269,7 +277,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem 0 1rem 0;
+    padding: 0 0 1rem 0;
 }
 
 .about-column-container {
@@ -302,9 +310,22 @@ header {
     gap: 4rem; /* Space between columns */
 }
 
+.products-h2 {
+    margin-bottom: 3.5rem;
+}
+
+.products-container-p {
+    text-align: left !important;
+    padding: 1.5rem 1.5rem 0 1.5rem !important;
+}
+
 /***** Card *****/
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
     padding: 0;
     width: 22rem;
     height: 40rem;
@@ -320,26 +341,32 @@ header {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.6);
 }
 
-.card img {
-    width: 100%;
+.products-container img {
+    width: 20rem;
     height: 16rem;
+    padding: 0 5rem 0 5rem;
     object-fit: cover; /* Image fills the container */
     opacity: 0.6; /* Image opacity */
-    border-radius: 0.2rem; /* Rounded corners */
+}
+
+.card-alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card h3 {
-    padding: 2rem 1.5rem 0 1.5rem;;
+    padding: 2rem 2.5rem 0 5rem;
     font-size: 1.5rem;
 }
 
 .card p {
-    padding: 0 1.5rem 1rem;
+    padding: 0 5rem 2.5rem 5rem;
 }
 
 .card-description {
     display: block;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 5rem;
     font-size: 1rem;
     text-align: left;
 }
