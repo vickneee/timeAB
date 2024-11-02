@@ -108,8 +108,8 @@ button:active {
 
 .button-fixed {
     position: absolute;
-    left: 0.5rem;
-    bottom: 2rem;
+    left: 0.1rem;
+    bottom: 1.2rem;
     font-size: 0.8rem !important;
     border: 1px solid var(--gold);
     z-index: 1; /* Above all other elements */
