@@ -59,8 +59,7 @@ body {
 /***** Typography *****/
 
 h1 {
-    margin-top: 10rem;
-    padding: 2rem 4rem 0 4rem;
+    padding: 5rem 4rem 0 4rem;
     font-family: "Montserrat", "Verdana", "Helvetica", "Arial", sans-serif; /* Default font and backup fonts */
     font-size: 4rem;
 }
@@ -146,8 +145,10 @@ header {
 }
 
 .logo-container img {
-    width: 52px;
+    width: 40px;
     height: auto;
+    margin-right: -1rem;
+    margin-left: -1rem;
     filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
     transition: transform 0.3s ease; /* Smooth transition */
 }
@@ -158,9 +159,8 @@ header {
 
 .logo-container a {
     margin: 1rem;
-    padding: 0;
     font-family: "Montserrat", "Verdana", "Helvetica", "Arial", sans-serif; /* Default font and backup fonts */
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-transform: uppercase; /* Uppercase text */
     transition: transform 0.3s ease; /* Smooth transition */
 }
@@ -246,16 +246,17 @@ header {
 }
 
 .home-container p {
+    font-size: 1.3rem;
     margin-bottom: 3rem;
     padding: 1rem 6em 0 6rem;
     text-align: center;
-    line-height: 1;
+    line-height: 1.4;
 }
 
 .home-img-container {
     position: relative;
     width: 95%; /* 95% of the container width */
-    height: 400px;
+    height: 420px;
     overflow: hidden; /* Prevents the image from overflowing */
     border-radius: 0.5rem;
     display: flex;
