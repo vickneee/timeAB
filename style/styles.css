@@ -43,6 +43,10 @@
 
 /***** General *****/
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     box-sizing: border-box; /* Border-box model */
     scroll-behavior: smooth; /* Smooth scrolling */
