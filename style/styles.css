@@ -38,7 +38,7 @@
 
 .luxury-line {
     border-bottom: 2px solid var(--gold);
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 /***** General *****/
