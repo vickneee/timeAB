@@ -1,6 +1,6 @@
 # timeAB
 
-Metropolia's UAS Ohjelmointi 2 HTML-CSS project.
+Metropolia UAS Ohjelmointi 2 HTML-CSS project.
 
 TimeAB is a school project I created at Metropolia University of Applied Sciences. It’s a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, but it only showcases the user interface and does not include any interactive features or links. The website is currently not responsive.
 
